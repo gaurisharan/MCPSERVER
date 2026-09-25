@@ -7,7 +7,7 @@ and this project follows Semantic Versioning.
 
 ---
 
-## [Unreleased]
+## [0.1.0] - 2026-09-24
 
 ### Added
 - MCP server configuration for integration with VS Code.
@@ -38,7 +38,7 @@ and this project follows Semantic Versioning.
 
 ---
 
-## [0.1.0] - 2026-09-25
+## [0.2.0] - 2026-09-25
 
 ### Added
 - Initial MCP server implementation.
@@ -58,6 +58,7 @@ and this project follows Semantic Versioning.
 
 ---
 
+<!--
 ## [Unreleased]
 
 Future releases may include:
@@ -69,3 +70,13 @@ Future releases may include:
 - Logging and debugging improvements.
 - Automated testing.
 - Additional documentation and usage examples.
+-->
+
+## Versioning Guide
+Semantic Versioning - MAJOR.MINOR.PATCH
+
+| Change                                 | Version change | Example         |
+| -------------------------------------- | -------------- | --------------- |
+| Breaking/incompatible change           | **MAJOR**      | `1.0.0 → 2.0.0` |
+| New functionality, backward-compatible | **MINOR**      | `0.1.0 → 0.2.0` |
+| Bug fix / small correction             | **PATCH**      | `0.2.0 → 0.2.1` |
